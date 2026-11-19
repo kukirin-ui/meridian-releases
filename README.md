@@ -37,13 +37,13 @@ Real interface captures from the Meridian website. These show the product UI, no
 
 | Chat and Core | Gaming and Parallel |
 |---|---|
-| ![Chat home](${raw}chat-home.webp) | ![Gaming dashboard](${raw}gaming-dashboard.webp) |
-| [Chat home](${raw}chat-home.webp) · [Core connected](${raw}core-connected.webp) · [Core pairing](${raw}core-pair.webp) | [Gaming tuning](${raw}gaming-advanced.webp) · [Parallel diagnosis](${raw}parallel-findings.webp) · [Verified repair](${raw}parallel-verified.webp) |
+| ![Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | ![Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) |
+| [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) · [Core connected](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp) · [Core pairing](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-pair.webp) | [Gaming tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) · [Parallel diagnosis](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) · [Verified repair](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-verified.webp) |
 
 | NullCloud |
 |---|
-| ![NullCloud source reading](${raw}nullcloud-source.webp) |
-| [Source reading](${raw}nullcloud-source.webp) · [Summary](${raw}nullcloud-summary.webp) · [Knowledge extraction](${raw}nullcloud-facts.webp) |
+| ![NullCloud source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) |
+| [Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp) |
 
 [Explore the complete five-app showcase and feature catalog](https://github.com/kukirin-ui/meridian-showcase) · [Open the live website](https://kukirin-ui.github.io/meridian-site/)
 
