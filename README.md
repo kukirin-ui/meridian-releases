@@ -9,7 +9,7 @@
 [![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Offline first](https://img.shields.io/badge/offline--first-by_design-6046D8?style=for-the-badge)](https://github.com/kukirin-ui/meridian-showcase)
 [![Termux](https://img.shields.io/badge/Termux-integrated-111111?style=for-the-badge&logo=gnubash&logoColor=white)](https://termux.dev/)
-[![Current](https://img.shields.io/badge/current-2.6.55-blue?style=for-the-badge)](https://github.com/kukirin-ui/meridian-releases/releases/latest)
+[![Current](https://img.shields.io/badge/latest-release-2.6.54--beta-blue?style=for-the-badge)](https://github.com/kukirin-ui/meridian-releases/releases/latest)
 
 [**Download latest release**](https://github.com/kukirin-ui/meridian-releases/releases/latest) · [Showcase](https://github.com/kukirin-ui/meridian-showcase) · [Website](https://kukirin-ui.github.io/meridian-site/) · [Complete feature catalog](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/FEATURE-CATALOG.md)
 
