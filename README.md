@@ -46,29 +46,6 @@ Meridian is a family of five Android applications designed to work independently
 
 **Install Core first** for the connected family experience. The other four apps can also be used independently; some functions require Core, Termux, Termux:API, ADB pairing, device permissions or a configured model.
 
-## See the apps
-
-Real interface captures from the Meridian website. Each app is shown separately and labelled correctly. The three app previews use a consistent display size.
-
-| **Meridian Chat** | **Meridian Gaming** | **Meridian Parallel** |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp" alt="Meridian Chat" width="100%" height="320"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp" alt="Meridian Gaming" width="100%" height="320"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp" alt="Meridian Parallel" width="100%" height="320"> |
-| [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | [Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) · [Tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) | [Diagnosis](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) · [Verified repair](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-verified.webp) |
-
-### Meridian Core
-
-<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp" alt="Meridian Core" width="100%" height="320">
-
-[Core connected](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp) · [Core pairing](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-pair.webp) · [Core developer options](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-devopts.webp)
-
-### Meridian NullCloud
-
-<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp" alt="Meridian NullCloud" width="100%" height="320">
-
-[Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp)
-
-[Explore the complete five-app showcase and feature catalog](https://github.com/kukirin-ui/meridian-showcase) · [Open the live website](https://kukirin-ui.github.io/meridian-site/)
-
 ## Quick install
 1. Download the APKs you want from the latest release.
 2. Install **Meridian Core** first.
