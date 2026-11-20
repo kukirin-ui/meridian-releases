@@ -10,11 +10,6 @@ Build with local models. Work directly with your device. Keep your tools indepen
 
 **Standalone capable. Core enhanced. Suite unleashed.**
 
-[![Android](https://img.shields.io/badge/ANDROID-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Offline first](https://img.shields.io/badge/BUILT-Offline_First-6046D8?style=for-the-badge)](https://github.com/kukirin-ui/meridian-showcase)
-[![Termux](https://img.shields.io/badge/POWERED_WITH-Termux-111111?style=for-the-badge&logo=gnubash&logoColor=white)](https://termux.dev/)
-[![Five apps](https://img.shields.io/badge/SUITE-5_Standalone_Apps-2563EB?style=for-the-badge)](#the-five-apps)
-
 <br/>
 
 [**⬇ DOWNLOAD LATEST RELEASE**](https://github.com/kukirin-ui/meridian-releases/releases/latest)  
@@ -46,29 +41,29 @@ Meridian is a family of five Android applications designed to work independently
 | **Meridian Core** | ADB pairing/elevation bridge, family hub, shared data and Core-owned knowledge | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-core.apk) |
 | **Meridian Chat** | Local GGUF models, optional BYOK providers, projects, memory, prompts, skills and recipes | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-chat.apk) |
 | **Meridian Gaming** | Hardware telemetry, game profiles, task isolation, tuning and model benchmarks | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-gaming.apk) |
-| **Meridian Parallel** | Termux console, files, plans, build tools, Doctor, Diagnose, Debugger, CodeGen and Sandbox | [Download](https://github.com/kukirin-ui/meridian-releases/latest/download/meridian-parallel.apk) |
-| **NullCloud** | Read links, PDFs and text; summarize, extract, translate, check claims and save reads | [Download](https://github.com/kukirin-ui/meridian-releases/latest/download/meridian-nullcloud.apk) |
+| **Meridian Parallel** | Termux console, files, plans, build tools, Doctor, Diagnose, Debugger, CodeGen and Sandbox | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-parallel.apk) |
+| **NullCloud** | Read links, PDFs and text; summarize, extract, translate, check claims and save reads | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-nullcloud.apk) |
 
 **Install Core first** for the connected family experience. The other four apps can also be used independently; some functions require Core, Termux, Termux:API, ADB pairing, device permissions or a configured model.
 
 ## See the apps
 
-Real interface captures from the Meridian website. Each app is shown separately and labelled correctly.
+Real interface captures from the Meridian website. Each app is shown separately and labelled correctly. The three app previews use a consistent display size.
 
 | **Meridian Chat** | **Meridian Gaming** | **Meridian Parallel** |
 |:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp" alt="Meridian Chat" width="100%"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp" alt="Meridian Gaming" width="100%"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp" alt="Meridian Parallel" width="100%"> |
+| <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp" alt="Meridian Chat" width="100%" height="320"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp" alt="Meridian Gaming" width="100%" height="320"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp" alt="Meridian Parallel" width="100%" height="320"> |
 | [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | [Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) · [Tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) | [Diagnosis](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) · [Verified repair](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-verified.webp) |
 
 ### Meridian Core
 
-<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp" alt="Meridian Core" width="100%">
+<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp" alt="Meridian Core" width="100%" height="320">
 
 [Core connected](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp) · [Core pairing](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-pair.webp) · [Core developer options](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-devopts.webp)
 
 ### Meridian NullCloud
 
-<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp" alt="Meridian NullCloud" width="100%">
+<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp" alt="Meridian NullCloud" width="100%" height="320">
 
 [Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp)
 
