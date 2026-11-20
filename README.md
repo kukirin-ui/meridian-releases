@@ -53,21 +53,26 @@ Meridian is a family of five Android applications designed to work independently
 
 ## See the apps
 
-Real interface captures from the Meridian website. These show the product UI, not promotional mockups.
+Real interface captures from the Meridian website. Each app is shown separately and labelled correctly.
 
-| Meridian Chat | Meridian Gaming |
-|---|---|
-| ![Meridian Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | ![Meridian Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) |
-| [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | [Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) · [Gaming tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) |
+| **Meridian Chat** | **Meridian Gaming** | **Meridian Parallel** |
+|:---:|:---:|:---:|
+| ![Meridian Chat](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | ![Meridian Gaming](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) | ![Meridian Parallel](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) |
+| [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | [Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) · [Tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) | [Diagnosis](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) · [Verified repair](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-verified.webp) |
 
-| Meridian NullCloud |
-|---|
-| ![NullCloud source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) |
-| [Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp) |
+### Meridian Core
+
+![Meridian Core](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp)
+
+[Core connected](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp) · [Core pairing](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-pair.webp) · [Core developer options](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-devopts.webp)
+
+### Meridian NullCloud
+
+![Meridian NullCloud](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp)
+
+[Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp)
 
 [Explore the complete five-app showcase and feature catalog](https://github.com/kukirin-ui/meridian-showcase) · [Open the live website](https://kukirin-ui.github.io/meridian-site/)
-
----
 
 ## Quick install
 1. Download the APKs you want from the latest release.
