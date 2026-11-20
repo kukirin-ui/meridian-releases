@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10131b">
+<title>Download Meridian Suite</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0b0e14;color:#f3f5fa}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px}
+main{width:min(100%,680px);border:1px solid #293142;border-radius:22px;padding:clamp(22px,5vw,42px);background:#111722;box-shadow:0 24px 80px #0008}
+.eyebrow{color:#9ca9c2;letter-spacing:.16em;font-size:.75rem;font-weight:700}h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.02;margin:.6rem 0}p{color:#b8c1d1;line-height:1.6}
+button{width:100%;border:0;border-radius:13px;padding:17px 20px;background:#e9edff;color:#111827;font-size:1rem;font-weight:800;cursor:pointer;margin:18px 0 8px}
+button:disabled{opacity:.6;cursor:wait}.note{font-size:.88rem;color:#9da9bc}
+ul{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+li{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:13px 15px;border:1px solid #2a3446;border-radius:11px}
+a{color:#a9c7ff;text-decoration:none}a:hover{text-decoration:underline}.name{font-weight:650}
+.status{min-height:1.5em;color:#b8c1d1;font-size:.9rem;margin-top:10px}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">MERIDIAN FAMILY · OFFICIAL RELEASES</div>
+<h1>Get the whole suite.</h1>
+<p>Download all five Meridian Android apps from the latest public release. The files are downloaded separately so Android can install and update each app normally.</p>
+<button id="download" type="button">Download all 5 APKs</button>
+<div class="note">Your browser may ask you to allow multiple downloads. If it blocks the batch, use the individual links below.</div>
+<div id="status" class="status" role="status" aria-live="polite"></div>
+<ul id="apps">
+<li><span class="name">Meridian Core</span><a href="https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-core.apk" download>Download APK</a></li>
+<li><span class="name">Meridian Chat</span><a href="https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-chat.apk" download>Download APK</a></li>
+<li><span class="name">Meridian Gaming</span><a href="https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-gaming.apk" download>Download APK</a></li>
+<li><span class="name">Meridian Parallel</span><a href="https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-parallel.apk" download>Download APK</a></li>
+<li><span class="name">Meridian NullCloud</span><a href="https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-nullcloud.apk" download>Download APK</a></li>
+</ul>
+<p class="note">Install Core first for the connected family experience. Android requires your confirmation when installing APK files; this page cannot silently install apps or bypass Android's security prompts.</p>
+</main>
+<script>
+const button=document.getElementById('download');
+const status=document.getElementById('status');
+const links=[...document.querySelectorAll('#apps a')];
+button.addEventListener('click',()=>{
+  button.disabled=true;
+  let index=0;
+  status.textContent='Starting downloads… approve multiple downloads if your browser asks.';
+  const next=()=>{
+    if(index>=links.length){status.textContent='All five download requests have been sent. Check your Downloads folder.';button.disabled=false;return;}
+    status.textContent='Requesting '+(index+1)+' of '+links.length+': '+links[index].parentElement.querySelector('.name').textContent;
+    links[index].click();
+    index++;
+    window.setTimeout(next,1200);
+  };
+  next();
+});
+</script>
+</body>
+</html>
