@@ -12,7 +12,7 @@ Build with local models. Work directly with your device. Keep your tools indepen
 
 <br/>
 
-[**⬇ DOWNLOAD LATEST RELEASE**](https://github.com/kukirin-ui/meridian-releases/releases/latest)  
+[**⬇ DOWNLOAD ALL FIVE APPS**](https://github.com/kukirin-ui/meridian-releases/blob/main/download-all.html) · [Download latest release](https://github.com/kukirin-ui/meridian-releases/releases/latest)  
 [Product website](https://kukirin-ui.github.io/meridian-site/) · [Feature showcase](https://github.com/kukirin-ui/meridian-showcase) · [Architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/kukirin-ui/meridian-releases/issues)
 
 </div>
