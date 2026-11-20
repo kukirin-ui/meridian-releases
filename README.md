@@ -2,18 +2,34 @@
 
 # MERIDIAN FAMILY
 
-### Five standalone Android apps. One connected offline-first suite.
+### Five Android apps. One connected engineering suite.
 
-**Local AI · Termux engineering · device operations · shared knowledge**
+**Local AI · Termux workstation · device intelligence · shared knowledge**
 
-[![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
-[![Offline first](https://img.shields.io/badge/offline--first-by_design-6046D8?style=for-the-badge)](https://github.com/kukirin-ui/meridian-showcase)
-[![Termux](https://img.shields.io/badge/Termux-integrated-111111?style=for-the-badge&logo=gnubash&logoColor=white)](https://termux.dev/)
-[![Current](https://img.shields.io/badge/latest-release-2.6.54--beta-blue?style=for-the-badge)](https://github.com/kukirin-ui/meridian-releases/releases/latest)
+[![Android](https://img.shields.io/badge/ANDROID-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Offline first](https://img.shields.io/badge/BUILT-Offline_First-6046D8?style=for-the-badge)](https://github.com/kukirin-ui/meridian-showcase)
+[![Termux](https://img.shields.io/badge/POWERED_WITH-Termux-111111?style=for-the-badge&logo=gnubash&logoColor=white)](https://termux.dev/)
+[![Five apps](https://img.shields.io/badge/SUITE-5_Standalone_Apps-2563EB?style=for-the-badge)](#the-five-apps)
 
-[**Download latest release**](https://github.com/kukirin-ui/meridian-releases/releases/latest) · [Showcase](https://github.com/kukirin-ui/meridian-showcase) · [Website](https://kukirin-ui.github.io/meridian-site/) · [Complete feature catalog](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/FEATURE-CATALOG.md)
+<br/>
+
+[**⬇ DOWNLOAD LATEST RELEASE**](https://github.com/kukirin-ui/meridian-releases/releases/latest)  
+[Product website](https://kukirin-ui.github.io/meridian-site/) · [Feature showcase](https://github.com/kukirin-ui/meridian-showcase) · [Architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/kukirin-ui/meridian-releases/issues)
 
 </div>
+
+---
+
+## THE SUITE
+
+Meridian is a modular Android environment for people who want local AI, direct control of their tools, and a serious Termux workflow — without forcing five different jobs into one oversized app.
+
+| **CORE** | **CHAT** | **GAMING** | **PARALLEL** | **NULLCLOUD** |
+|:---:|:---:|:---:|:---:|:---:|
+| Family hub | Local AI | Device tuning | Termux workstation | Reading & research |
+| Shared services | Model control | Hardware telemetry | Diagnose & build | PDF & web analysis |
+
+**Install Core first** for the connected family experience. Each of the other four apps can also run independently; some integrations require Core, Termux, Termux:API, ADB pairing, device permissions or a configured model.
 
 ---
 
