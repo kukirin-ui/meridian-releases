@@ -57,18 +57,18 @@ Real interface captures from the Meridian website. Each app is shown separately 
 
 | **Meridian Chat** | **Meridian Gaming** | **Meridian Parallel** |
 |:---:|:---:|:---:|
-| ![Meridian Chat](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | ![Meridian Gaming](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) | ![Meridian Parallel](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) |
+| <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp" alt="Meridian Chat" width="100%"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp" alt="Meridian Gaming" width="100%"> | <img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp" alt="Meridian Parallel" width="100%"> |
 | [Chat home](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/chat-home.webp) | [Gaming dashboard](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-dashboard.webp) · [Tuning](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/gaming-advanced.webp) | [Diagnosis](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-findings.webp) · [Verified repair](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/parallel-verified.webp) |
 
 ### Meridian Core
 
-![Meridian Core](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp)
+<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp" alt="Meridian Core" width="100%">
 
 [Core connected](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-connected.webp) · [Core pairing](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-pair.webp) · [Core developer options](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/core-devopts.webp)
 
 ### Meridian NullCloud
 
-![Meridian NullCloud](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp)
+<img src="https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp" alt="Meridian NullCloud" width="100%">
 
 [Source reading](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-source.webp) · [Summary](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-summary.webp) · [Knowledge extraction](https://raw.githubusercontent.com/kukirin-ui/meridian-site/main/img/explore/nullcloud-facts.webp)
 
