@@ -2,9 +2,13 @@
 
 # MERIDIAN FAMILY
 
-### Five Android apps. One connected engineering suite.
+### Five standalone Android apps. One connected intelligence suite.
 
-**Local AI · Termux workstation · device intelligence · shared knowledge**
+**Local AI · Termux engineering · device intelligence · shared knowledge · one central Core**
+
+Build with local models. Work directly with your device. Keep your tools independent — or connect the full Meridian family and let every app draw on shared knowledge, services and workflows.
+
+**Standalone capable. Core enhanced. Suite unleashed.**
 
 [![Android](https://img.shields.io/badge/ANDROID-11%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
 [![Offline first](https://img.shields.io/badge/BUILT-Offline_First-6046D8?style=for-the-badge)](https://github.com/kukirin-ui/meridian-showcase)
