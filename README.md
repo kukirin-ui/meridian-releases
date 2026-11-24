@@ -44,7 +44,7 @@ Meridian turns an Android phone into an AI workstation. Core is the family's min
 - **Every app's verified work is shared.** Commands that ran, files that passed their check, fixes the Sandbox proved and programs whose tests passed are kept in Core, and every model gets the closest verified work as an example before it answers.
 - **Core opens the apps for their work.** Only Core runs all the time; work between apps goes through Core, which opens the app that gets it and closes it again afterwards.
 - **Any model can have a program built.** Parallel writes it with its tests, runs them in its Sandbox, repairs what fails and saves the working program in Termux.
-- **14 job adapters** on one local model, **Teacher mode** (an online model's passing fix teaches the local one), **Me mode**, **tools for local models** measured as reliable, and **Model Lab**.
+- **14 LoRA adapters made only for Qwen3.5-4B** (they load only with a Qwen3.5-4B model, any quant), **Teacher mode** (an online model's passing fix teaches the local one), **Me mode**, **tools for local models** measured as reliable, and **Model Lab**.
 - **Forge**, **Recipe Compiler**, **Repro Lab**, **NullCloud Studio**, **Smart gaming**, **Theme Studio** and **Looks and Effects**.
 - **The Caretaker, Constitution, Proof Engine and Survival Mode**, the **internet switch** with Hard offline, **Core · Translator** (Croatian and English on the phone), and updates for the whole family from any app's drawer.
 
@@ -80,7 +80,7 @@ Later updates: any Meridian app's drawer shows what is missing or behind and upd
 
 ### Chat · models on the phone
 - Local GGUF models through llama.cpp in Termux; CPU, Vulkan GPU or split; every llama-server option, llama.cpp built from source, Vulkan drivers and presets.
-- 14 job adapters on one base model: Python, C/C++, shell, web, JVM, Rust/Go, a Termux fixer and worker, a judge, recipe cards, Android, local models, networking and conversation.
+- 14 LoRA adapters, trained exclusively on Qwen3.5-4B and loaded only with it (any quant; Q4_K_M recommended): Python, C/C++, shell, web, JVM, Rust/Go, a Termux fixer and worker, a judge, recipe cards, Android, local models, networking and conversation.
 - Me mode: commands run at once, files are checked in a sandbox and backed up first, destructive actions wait for a tap.
 - Teacher mode: an online model fixes what a local model could not, and the fix trains the local adapter.
 - Tools for local models that the Model Lab measured as reliable with tools.
