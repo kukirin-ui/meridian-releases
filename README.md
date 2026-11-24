@@ -2,137 +2,146 @@
 
 # MERIDIAN FAMILY
 
-### Five standalone Android apps. One connected intelligence suite.
+### Five Android apps. One mind. Built and run on a phone.
 
-**Local AI · Termux engineering · device intelligence · shared knowledge · one central Core**
+**Local AI · Termux engineering · device intelligence · shared knowledge that learns from its own work**
 
-Build with local models. Work directly with your device. Keep your tools independent — or connect the full Meridian family and let every app draw on shared knowledge, services and workflows.
+Meridian turns an Android phone into an AI workstation. Core is the family's mind: one memory for all five apps, trust that only evidence raises, and the one app that always runs, opening each of the others when there is work for it. Every verified result is shared, and every model, local or online, learns from it.
 
-**Standalone capable. Core enhanced. Suite unleashed.**
+**Current release: 3.0.00** · Android 11 or newer · no root
 
 <br/>
 
-[**⬇ DOWNLOAD ALL FIVE APPS**](https://github.com/kukirin-ui/meridian-releases/blob/main/download-all.html) · [Download latest release](https://github.com/kukirin-ui/meridian-releases/releases/latest)  
-[Product website](https://kukirin-ui.github.io/meridian-site/) · [Feature showcase](https://github.com/kukirin-ui/meridian-showcase) · [Architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/kukirin-ui/meridian-releases/issues)
+[**⬇ DOWNLOAD ALL FIVE APPS**](https://github.com/kukirin-ui/meridian-releases/blob/main/download-all.html) · [Latest release](https://github.com/kukirin-ui/meridian-releases/releases/latest) · [What's new](https://kukirin-ui.github.io/meridian-site/whatsnew.html)
+[Website](https://kukirin-ui.github.io/meridian-site/) · [Feature showcase](https://github.com/kukirin-ui/meridian-showcase) · [Architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/kukirin-ui/meridian-releases/issues)
 
 </div>
 
 ---
 
-## THE SUITE
-
-Meridian is a modular Android environment for people who want local AI, direct control of their tools, and a serious Termux workflow — without forcing five different jobs into one oversized app.
+## The suite
 
 | **CORE** | **CHAT** | **GAMING** | **PARALLEL** | **NULLCLOUD** |
 |:---:|:---:|:---:|:---:|:---:|
-| Family hub | Local AI | Device tuning | Termux workstation | Reading & research |
-| Shared services | Model control | Hardware telemetry | Diagnose & build | PDF & web analysis |
+| The family's mind | Local AI | Device performance | Termux workstation | Research & reading |
+| Memory, trust, upkeep | 14 job adapters | Smart gaming | Programs, written and tested | Studio |
 
-**Install Core first** for the connected family experience. Each of the other four apps can also run independently; some integrations require Core, Termux, Termux:API, ADB pairing, device permissions or a configured model.
+| App | What it is for | Latest APK |
+|---|---|---|
+| **Meridian Core** | One library and memory for the family, the Trust Ledger, the Caretaker, the Translator, and the ADB helper that changes system settings without root | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-core.apk) |
+| **Meridian Chat** | Models on the phone with llama.cpp, or your own provider key; job adapters, Me mode, Teacher mode, Model Lab and Storage | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-chat.apk) |
+| **Meridian Gaming** | Live clocks and hardware readings, Clock profiles, heat guard, and Smart gaming: the least power that still holds the game | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-gaming.apk) |
+| **Meridian Parallel** | Termux console and files, Forge, programs written with their tests and proven in the Sandbox, Diagnose, Recipe Compiler and Repro Lab | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-parallel.apk) |
+| **NullCloud** | Read links, PDFs and text; Studio learns topics, scrapes sites and writes from sources only | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-nullcloud.apk) |
+
+**Install Core first** for the connected family. Each of the other four also works on its own; some features need Core, Termux, Termux:API, Wireless debugging pairing, device permissions or a configured model.
 
 ---
 
-## What is Meridian?
+## New in 3.0.00
 
-Meridian is a family of five Android applications designed to work independently or as one connected environment. Each app has a defined responsibility; Meridian Core provides shared services, typed communication and durable knowledge.
+- **Core is the family's mind.** One library and one memory in one database, ranked by what really worked on this phone; trust rises only with evidence and every change is on the Trust Ledger, a verifiable hash chain.
+- **Every app's verified work is shared.** Commands that ran, files that passed their check, fixes the Sandbox proved and programs whose tests passed are kept in Core, and every model gets the closest verified work as an example before it answers.
+- **Core opens the apps for their work.** Only Core runs all the time; work between apps goes through Core, which opens the app that gets it and closes it again afterwards.
+- **Any model can have a program built.** Parallel writes it with its tests, runs them in its Sandbox, repairs what fails and saves the working program in Termux.
+- **14 job adapters** on one local model, **Teacher mode** (an online model's passing fix teaches the local one), **Me mode**, **tools for local models** measured as reliable, and **Model Lab**.
+- **Forge**, **Recipe Compiler**, **Repro Lab**, **NullCloud Studio**, **Smart gaming**, **Theme Studio** and **Looks and Effects**.
+- **The Caretaker, Constitution, Proof Engine and Survival Mode**, the **internet switch** with Hard offline, **Core · Translator** (Croatian and English on the phone), and updates for the whole family from any app's drawer.
 
-| App | Purpose | Latest APK |
-|---|---|---|
-| **Meridian Core** | ADB pairing/elevation bridge, family hub, shared data and Core-owned knowledge | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-core.apk) |
-| **Meridian Chat** | Local GGUF models, optional BYOK providers, projects, memory, prompts, skills and recipes | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-chat.apk) |
-| **Meridian Gaming** | Hardware telemetry, game profiles, task isolation, tuning and model benchmarks | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-gaming.apk) |
-| **Meridian Parallel** | Termux console, files, plans, build tools, Doctor, Diagnose, Debugger, CodeGen and Sandbox | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-parallel.apk) |
-| **NullCloud** | Read links, PDFs and text; summarize, extract, translate, check claims and save reads | [Download](https://github.com/kukirin-ui/meridian-releases/releases/latest/download/meridian-nullcloud.apk) |
+The complete list is in the [3.0.00 release notes](https://github.com/kukirin-ui/meridian-releases/releases/tag/v3.0.00).
 
-**Install Core first** for the connected family experience. The other four apps can also be used independently; some functions require Core, Termux, Termux:API, ADB pairing, device permissions or a configured model.
+---
 
 ## Quick install
-1. Download the APKs you want from the latest release.
-2. Install **Meridian Core** first.
-3. Install Chat, Gaming, Parallel and NullCloud as needed.
-4. Open Core and follow the Wireless debugging pairing guide if you need shell-level family actions.
-5. Open Parallel and complete Termux connection setup for terminal, file, package and job features.
-6. Verify downloads against the release's SHA256SUMS.txt.
 
-**Requirement:** Android 11 or newer is the documented minimum. Device-specific features depend on OS, vendor firmware and permissions.
+1. Open the [latest release](https://github.com/kukirin-ui/meridian-releases/releases/latest) or the [all-apps download page](https://github.com/kukirin-ui/meridian-releases/blob/main/download-all.html).
+2. Install **Meridian Core** first, then Chat, Gaming, Parallel and NullCloud as you need them.
+3. In Core, follow the Wireless debugging pairing guide for system-level features.
+4. In Parallel, connect Termux for the console, files, packages and builds.
+5. Check each APK against the release's `SHA256SUMS.txt`.
+
+Later updates: any Meridian app's drawer shows what is missing or behind and updates it in one tap.
+
+---
 
 ## What is inside
 
-### Core — family hub and knowledge authority
-- Wireless debugging pairing and shell-user helper on loopback, protected by a one-time token.
-- Bound-service bridge for family apps; shared content provider and preferences.
-- App check-ins, targeted command/result channels, event log and long-running work state.
-- Typed, owner-scoped data ports with schema validation.
-- Core-owned cards, lessons and shared knowledge.
-- Deterministic model-free retrieval; multiple distinct successful solutions remain available.
-- ICM context/method indexing; model output cannot promote itself to proven knowledge.
+### Core · the family's mind
+- One library for the family: documents, recipe cards, proven fixes, lessons, learned cards and the shared record of verified work, searched and ranked by evidence.
+- Learning Kernel: results from every app teach which answers, fixes and models work on this phone.
+- Trust Ledger: every change of trust in a verifiable hash chain; trust remembers the phone and Android version it was earned on.
+- A read-only shared view of Core's knowledge for every app, checked before it is trusted.
+- Opens the app a piece of work belongs to and closes it again, so only Core and the app on screen use memory.
+- Caretaker: upkeep while charging and idle; file clean-up always asked first.
+- Constitution, Proof Engine (a proof before consequential actions, verified after) and Survival Mode.
+- Core · Translator: Croatian and English on the phone, on Mozilla's engine.
+- Wireless debugging pairing and an ADB shell-user helper on loopback, protected by a one-time token. Shell-user access, not root.
+- The family's internet master switch, Theme Studio, the Reasoner, and settings shared by all five apps.
 
-### Chat — local and online intelligence
-- Local GGUF discovery/import/download, llama.cpp server connection and per-model settings.
-- CPU, Vulkan GPU and split execution options; threads, affinity, context, GPU layers, batch, micro-batch, max reply, Flash Attention and KV-cache controls.
-- Optional model mesh and Fixer / Helper / Judge roles.
-- Optional BYOK providers, user model IDs/API keys, multiple seats, step/cost controls and privacy toggles.
-- Projects, chat memory, instructions, prompts, attachments and Termux file access.
-- Skill trees, skill cards, lessons, recipes, shared library and web search with citations.
+### Chat · models on the phone
+- Local GGUF models through llama.cpp in Termux; CPU, Vulkan GPU or split; every llama-server option, llama.cpp built from source, Vulkan drivers and presets.
+- 14 job adapters on one base model: Python, C/C++, shell, web, JVM, Rust/Go, a Termux fixer and worker, a judge, recipe cards, Android, local models, networking and conversation.
+- Me mode: commands run at once, files are checked in a sandbox and backed up first, destructive actions wait for a tap.
+- Teacher mode: an online model fixes what a local model could not, and the fix trains the local adapter.
+- Tools for local models that the Model Lab measured as reliable with tools.
+- Model Lab: live speed test and tests checked by code; the Store for GGUF models with this phone's measurements.
+- Optional online providers with your own keys; Chat holds the keys for the whole family.
+- Projects, memory, instructions, prompts, attachments, Storage, web search with citations, and training data exported per adapter.
 
-### Gaming — device and performance workspace
-- Battery, memory, CPU, GPU, hardware and system views.
-- Live monitoring and shareable hardware reports.
-- Security/network posture and device-care surfaces.
-- Game detection, profiles, optional auto-add and watch mode.
-- Task isolation with keep-lists and optional Samsung/Google extras handling.
-- Heat-stop and advanced tuning controls where supported.
-- llama.cpp benchmark controls for CPU/GPU/split backend, threads, affinity, layers, Flash Attention, KV cache, prompt/generation length, batch, repeats and history.
+### Gaming · device performance
+- Live clocks for every CPU cluster and the GPU, battery, memory and hardware views, shareable reports.
+- Clock profiles, heat guard, Release RAM and task isolation, every value read back.
+- Smart gaming: per-game posture, the Sweet Spot Finder, the chip's efficiency fingerprint, a throttle forecast, a frame-time recorder and an exact restore.
 
-### Parallel — Termux workstation
-- Console, command execution, sessions and long-running job state.
-- File browser and project/file/folder operations.
-- Searchable plan and command library.
-- Build recipes and language/tool support for JavaScript/Node, Rust, Go, Ruby, PHP, Lua, Java, C/C++ and shell utilities.
-- Package manager, compilers, Git, editors, file utilities and runtime/service recipes.
-- Optional BYOK API configuration and user-defined scheduler.
-- Meridian Doctor, Diagnose, fix recipes and source debugger.
-- Multi-file CodeGen with file contracts, budget checks, Sandbox tests and repair workflow.
-- Debian/Ubuntu via proot-distro, SSH/remote shell and local llama-server tooling.
+### Parallel · the Termux workstation
+- Console with sessions, files, plans and build recipes for Python, Node, Rust, Go, C/C++, Java, Ruby, PHP, Lua and shell.
+- Forge: from an idea to a proven product, with an architecture review, a security review of every line, README, FORGE.json and checksums.
+- Programs on request from any app and any model: written with their tests, proven in the Sandbox, repaired, saved in Termux.
+- Doctor, Diagnose (the cause by method, one verified fix at a time), the Debugger, the Recipe Compiler and the Repro Lab.
+- Debian and Ubuntu through proot-distro, SSH and local llama-server tooling.
 
-### NullCloud — reading and research
-- Web links, PDFs and pasted text.
-- Summary, bullets, key points, facts, recipes, how-to steps, claim checks, simplification and translation.
-- Follow-up questions and local reading library.
-- Reuse Chat's model or configure a standalone local model.
+### NullCloud · research and reading
+- Links, PDFs and pasted text: summaries, steps, facts, claim checks, translation and follow-up questions; no size caps.
+- Studio: learn a topic from ranked sources into Core's library, scrape a page or a site with robots.txt respected, and write from sources only.
+- Reads only the public web, checked on every redirect.
+
+---
 
 ## Privacy, signing and integrity
-- Local inference is the default path; online providers are optional and require the user's own key and explicit enablement.
-- All five APKs in a family release use the same certificate so Android can update installed packages consistently.
-- Release tooling verifies each APK signature against the pinned SHA-256 certificate fingerprint before publication.
-- Every release includes SHA256SUMS.txt.
-- The private signing key and password remain with the owner and are not uploaded to GitHub.
-- Core elevation is Android shell-user access through Wireless debugging, not root.
-- Public issues are visible; never include passwords, API keys, tokens or private logs.
 
-### Public family certificate fingerprint
+- Models run on the phone by default. Online providers are optional, use your own key and are switched on by you.
+- The internet switch: one per app and a master switch in Core; Hard offline drops all internet traffic of the Meridian apps and Termux.
+- Each app's page runs only its own scripts; Core's own screen cannot be opened by other apps.
+- All five APKs in a release are signed with the same certificate, verified against the pinned fingerprint before publication, and every release includes `SHA256SUMS.txt`.
+- The private signing key and its password stay with the owner and are never uploaded.
+- Public issues are visible to everyone: never include passwords, API keys, tokens or private logs.
+
+### Family certificate fingerprint
+```
 SHA-256 18:58:EA:52:80:F2:7D:41:68:1B:73:DC:32:D7:AF:CD:69:39:21:DE:E2:97:B8:A3:8B:23:98:89:10:95:FA:B7
+```
 
-Always verify the APK and checksum against the release you are installing.
+---
 
 ## Documentation and support
-- [Complete implemented feature catalog](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/FEATURE-CATALOG.md)
-- [System architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md)
+
+- [Feature catalog](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/FEATURE-CATALOG.md)
+- [Architecture](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/ARCHITECTURE.md)
 - [Benchmarks and device measurements](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/BENCHMARKS.md)
 - [Install and release procedure](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/INSTALL-AND-RELEASE.md)
 - [Validation and boundaries](https://github.com/kukirin-ui/meridian-showcase/blob/main/docs/VALIDATION-AND-BOUNDARIES.md)
-- [Public website](https://kukirin-ui.github.io/meridian-site/)
-- [Report a problem](https://github.com/kukirin-ui/meridian-releases/issues)
+- [Website](https://kukirin-ui.github.io/meridian-site/) · [What's new](https://kukirin-ui.github.io/meridian-site/whatsnew.html)
+- [Report a problem](https://github.com/kukirin-ui/meridian-releases/issues), or use **Report a problem** in any app's Settings to prepare a report you review before sending.
 
-Use **Report a problem** in an app's Settings to prepare an app/version/device report for review before sending.
+## Repositories
 
-## Project repositories
 | Repository | Purpose |
 |---|---|
-| [Clean-Meridian](https://github.com/kukirin-ui/Clean-Meridian) | Private source, tests and build/release tooling |
-| [meridian-releases](https://github.com/kukirin-ui/meridian-releases) | Public APK downloads and release notes |
+| [meridian-releases](https://github.com/kukirin-ui/meridian-releases) | Signed APKs, checksums and release notes |
 | [meridian-showcase](https://github.com/kukirin-ui/meridian-showcase) | Product overview, architecture, feature catalog and benchmarks |
-| [meridian-site](https://kukirin-ui.github.io/meridian-site/) | Public product website |
+| [meridian-site](https://kukirin-ui.github.io/meridian-site/) | The website |
+| Clean-Meridian (private) | Source, tests and build and release tooling |
 
 ---
-**Meridian Family © 2026 Alen Požun.** Component-level license and notice information is available in the apps and source repository.
+**Meridian Family © 2026 Alen Požun** · [X / @termuxSolutions](https://x.com/termuxSolutions) · [XDA](https://xdaforums.com/m/termuxsolutions.13482532/)
+Component licences and notices are in the apps.
